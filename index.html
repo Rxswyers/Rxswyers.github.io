@@ -23,9 +23,11 @@
     <script src="js/ie-emulation-modes-warning.js"></script>
     <script>
       $(document).ready(function(){
+        //If the link to the main page is clicked, it will load the page
         $("#main").click(function(){
           $("#stuff").load("main.html");
         });
+        //If the services link is clicked, the services page will load
         $("#services").click(function(){
           $("#stuff").load("services.html");
           $("#servicesLi").addClass("active");
@@ -63,6 +65,7 @@
       </div>
     </nav>
 
+    <!--This div is a dummy to load in the pages via AJAX -->
     <div id="stuff" class="container" style="padding-top:50px;">
 
 
