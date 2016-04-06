@@ -6,6 +6,11 @@ $(document).ready(function(){
   //If the services link is clicked, the services page will load
   $("#services").click(function(){
     $("#stuff").load("services.html");
-    $("#servicesLi").addClass("active");
+    //$("#servicesLi").addClass("active");
+  });
+  //If the projects link is clicked, the projects page will load
+  $("#projects").click(function(){
+    $("#stuff").load("projects.html");
+    //$("#projectsLi").addClass("active");
   });
 });
