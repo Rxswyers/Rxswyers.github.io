@@ -13,4 +13,7 @@ $(document).ready(function(){
     $("#stuff").load("projects.html");
     //$("#projectsLi").addClass("active");
   });
+  $("#pcsLi").click(function(){
+    $("#stuff").load("pc.html");
+  });
 });
