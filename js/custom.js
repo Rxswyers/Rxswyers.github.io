@@ -13,7 +13,8 @@ $(document).ready(function(){
     $("#stuff").load("projects.html");
     //$("#projectsLi").addClass("active");
   });
-  $("#pcsLi").click(function(){
+  //If the custom pc's link is clicked, the pc page will load
+  $("#pcs").click(function(){
     $("#stuff").load("pc.html");
   });
 });
