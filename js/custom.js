@@ -1,7 +1,10 @@
 $(document).ready(function(){
   //If the link to the main page is clicked, it will load the page
   $("#main").click(function(){
-    $("#stuff").load("main.html");
+    $("#stuff").load("main.html",function(){
+      componentHandler.upgradeAllRegistered();
+    });
+   
   });
   //If the services link is clicked, the services page will load
   $("#services").click(function(){
