@@ -1,6 +1,16 @@
 .navbar-default
 {
-  background-color: #D1D1D1;
+  background-color: gray;
+  color: black !important;
+}
+ul.navbar.nav
+{
+  height: 60px;
+  color: black;
+}
+.nav a
+{
+  color: black;
 }
 .active
 {
@@ -8,7 +18,7 @@
 }
 .jumbotron
 {
-  background-color: #D1D1D1;  
+  background-color: gray;  
 }
 .jumbotron:hover .cyber
 {
@@ -29,11 +39,11 @@
 }
 .panel-heading
 {
-  background-color:#D1D1D1 !important;
+  background-color:gray !important;
 }
 .panel-default
 {
-  border-color: #D1D1D1;
+  border-color: gray;
 }
 .panel-footer
 {
@@ -41,13 +51,13 @@
 }
 .panel-footer .btn
 {
-  background-color: #D1D1D1;
+  background-color: gray;
   color: white;
 }
 .panel-footer .btn:hover
 {
   background-color: white;
-  color: #D1D1D1;
+  color: gray;
   border: 2px solid #A7FCD0;
 }
 .btn a
@@ -58,7 +68,7 @@ footer
 {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #D1D1D1;
+  background-color: gray;
   color: white;
   width: 100%;
 }
@@ -71,4 +81,20 @@ footer
 #projects
 {
   padding-top: 75px;
+}
+#photography
+{
+  padding-top: 75px;
+}
+.black-icon
+{
+  color: black;
+}
+.black-icon:hover
+{
+  color: #A7FCD0 !important;
+}
+.navbar-default .navbar-nav>li>a
+{
+  color: black;
 }
