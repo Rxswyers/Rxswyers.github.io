@@ -98,3 +98,11 @@ footer
 {
   color: black;
 }
+.gray-icon
+{
+  color:gray;
+}
+.gray-icon:hover
+{
+  color: black !important;
+}
