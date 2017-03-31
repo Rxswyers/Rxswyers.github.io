@@ -1,6 +1,4 @@
-footer.page-footer {
-  margin: 0;
-}
+
 footer.page-footer.mint
 {
   background-color: #A7FCD0;
@@ -151,6 +149,14 @@ main
 {
   fill: #424242;
 }
+.mint-logo-stroke:hover
+{
+  stroke: #424242;
+}
+.logo-text:hover
+{
+  cursor: default;
+}
 .custom-card .card-action
 {
   border-top: 1px solid #212121;
@@ -166,4 +172,22 @@ main
 .custom-card .card-action a:hover
 {
   color: #212121 !important;
+}
+footer.page-footer
+{
+  padding-top: 5px;
+}
+.page-footer .container .row
+{
+  margin-bottom: 0px;
+}
+.page-footer p
+{
+  margin-bottom: 0px;
+}
+h5.grey-underline
+{
+  border-bottom: #424242 !important;
+  border-bottom-style: solid !important;
+  border-bottom-width: 2px !important;
 }
