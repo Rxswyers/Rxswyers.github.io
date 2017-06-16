@@ -191,3 +191,8 @@ h5.grey-underline
   border-bottom-style: solid !important;
   border-bottom-width: 2px !important;
 }
+.center-img
+{
+  display: block;
+  margin: auto;
+}
